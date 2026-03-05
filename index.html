@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Walter Neves – Casa Cyrela Ipês</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:white;
+padding:20px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo-area{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo-img{
+height:60px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
+margin-top:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:8px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.03);
+}
+
+.info{
+display:flex;
+gap:30px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.details{
+flex:2;
+background:white;
+padding:25px;
+border-radius:10px;
+}
+
+.contact{
+flex:1;
+background:white;
+padding:25px;
+border-radius:10px;
+}
+
+.price{
+font-size:35px;
+font-weight:bold;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:10px;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+.visit{
+background:#1c8bb8;
+color:white;
+}
+
+.info-btn{
+background:#3d3d8f;
+color:white;
+}
+
+.descricao{
+background:white;
+margin-top:40px;
+padding:40px;
+border-radius:10px;
+line-height:1.7;
+}
+
+.descricao h3{
+margin-top:25px;
+color:#3d3d8f;
+}
+
+.mapa{
+background:white;
+margin-top:40px;
+padding:30px;
+border-radius:10px;
+}
+
+.lightbox{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.95);
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
+.lightbox img{
+max-width:90%;
+max-height:80%;
+}
+
+.controls{
+position:absolute;
+top:50%;
+width:100%;
+display:flex;
+justify-content:space-between;
+}
+
+.controls span{
+color:white;
+font-size:50px;
+cursor:pointer;
+padding:20px;
+}
+
+@media (max-width:900px){
+.gallery{
+grid-template-columns:repeat(2,1fr);
+}
+}
+
+@media (max-width:600px){
+.gallery{
+grid-template-columns:1fr;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<div class="logo-area">
+<img src="logo.png" class="logo-img">
+<h2 style="color:#3d3d8f;">Walter Neves Consultoria Imobiliária</h2>
+</div>
+</div>
+</header>
+
+
+<div class="container">
+
+<h2>Casa à venda no Condomínio Cyrela Ipês</h2>
+
+<div class="gallery">
+
+<img src="foto1.jpg">
+<img src="foto2.jpg">
+<img src="foto3.jpg">
+<img src="foto4.jpg">
+<img src="foto5.jpg">
+<img src="foto6.jpg">
+<img src="foto7.jpg">
+<img src="foto8.jpg">
+<img src="foto9.jpg">
+<img src="foto10.jpg">
+<img src="foto11.jpg">
+<img src="foto13.jpg">
+<img src="foto14.jpg">
+<img src="foto15.jpg">
+<img src="foto16.jpg">
+<img src="foto17.jpg">
+<img src="foto18.jpg">
+<img src="foto19.jpg">
+<img src="foto20.jpg">
+<img src="foto21.jpg">
+
+</div>
+
+
+<div class="info">
+
+<div class="details">
+
+<div class="price">R$ 5.000.000</div>
+
+<p>Condomínio Cyrela Ipês – Uberlândia/MG</p>
+<p>Área construída: 376,25 m²</p>
+<p>02 pavimentos</p>
+
+</div>
+
+<div class="contact">
+
+<a href="https://wa.me/5534999712807" target="_blank">
+<button class="visit">Agendar visita</button>
+</a>
+
+<a href="https://wa.me/5534999712807" target="_blank">
+<button class="info-btn">Quero mais informações</button>
+</a>
+
+</div>
+
+</div>
+
+
+<div class="descricao">
+
+<h2>Descrição do Imóvel</h2>
+
+<h3>Localização</h3>
+<p>
+Situada no Condomínio Cyrela Ipês, esta residência está localizada em uma área nobre,
+ideal para quem busca exclusividade e conforto.
+</p>
+
+<h3>Metragens</h3>
+<p>
+A casa possui uma área construída de 376,25 m², distribuída em 02 pavimentos,
+garantindo espaço amplo e bem aproveitado para toda a família.
+</p>
+
+<h3>Comodidades</h3>
+<p>
+A residência oferece 03 suítes no piso superior, todas com piso em Carvalho Europeu,
+proporcionando um ambiente sofisticado e aconchegante.
+</p>
+
+<p>
+No piso inferior há mais 02 suítes, sendo 01 delas destinada a funcionários.
+</p>
+
+<p>
+A suíte master possui banheira completa e o imóvel conta com sistema
+de ar condicionado de teto Daikin em todos os ambientes.
+</p>
+
+<p>
+Todas as portas são feitas de madeira Cumaru natural.
+</p>
+
+<h3>Cozinhas</h3>
+<p>
+O imóvel possui uma cozinha de serviço funcional e uma cozinha gourmet
+ideal para receber convidados.
+</p>
+
+<h3>Atrativos</h3>
+<p>
+Escada orgânica em madeira Cumaru, piscina aquecida, sauna,
+ofurô e churrasqueira dupla à carvão e à gás.
+</p>
+
+<p>
+Sistema de som interno e externo integrado ao jardim e área gourmet.
+</p>
+
+<h3>Tecnologia e Sustentabilidade</h3>
+<p>
+Sistema de energia fotovoltaica, automação residencial completa,
+esquadrias alemãs Schuco e elevador moderno com acesso direto pela garagem.
+</p>
+
+</div>
+
+
+<div class="mapa">
+
+<h2>Localização no mapa</h2>
+
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.266528638269!2d-48.26240342387948!3d-18.963833008953166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a45bea2781b363%3A0x942a4bac8efab525!2sCyrela%20-%20Residencial%20dos%20Ip%C3%AAs!5e0!3m2!1spt-BR!2sbr!4v1772695937757!5m2!1spt-BR!2sbr"
+width="100%" 
+height="450"
+style="border:0;border-radius:10px;"
+allowfullscreen=""
+loading="lazy"
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+</div>
+
+</div>
+
+
+<div class="lightbox" id="lightbox">
+
+<div class="controls">
+<span onclick="prev(event)">❮</span>
+<span onclick="next(event)">❯</span>
+</div>
+
+<img id="lightbox-img">
+
+</div>
+
+
+<script>
+
+const images=document.querySelectorAll(".gallery img")
+
+let index=0
+
+const lightbox=document.getElementById("lightbox")
+const lightboxImg=document.getElementById("lightbox-img")
+
+images.forEach((img,i)=>{
+img.addEventListener("click",()=>{
+index=i
+show()
+})
+})
+
+function show(){
+lightbox.style.display="flex"
+lightboxImg.src=images[index].src
+}
+
+function next(e){
+e.stopPropagation()
+index++
+if(index>=images.length) index=0
+show()
+}
+
+function prev(e){
+e.stopPropagation()
+index--
+if(index<0) index=images.length-1
+show()
+}
+
+lightbox.onclick=()=>{
+lightbox.style.display="none"
+}
+
+</script>
+
+</body>
+</html>
